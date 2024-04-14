@@ -1,0 +1,196 @@
+body {
+  background-color: #A7D7C5;
+}
+
+
+.container {
+  background-color: #F6FBF9;
+  width: 698px;
+  height: 900px;
+  border-radius: 40px;
+  box-shadow: black;
+  margin-top: 70px;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  padding: 35px;
+}
+
+.Titles {
+  display: flex;
+  flex-direction: column;
+
+  
+  justify-content: center;
+  align-items: center;  
+  font-family: 'Karla';
+}
+
+
+h1 {
+  font-size: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 23px;
+  color: #32403B;
+  text-align: center;
+
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.wrapper_for_name {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 15px;
+}
+
+.personal_date {
+  width: 575px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 23px;
+  padding-left: 30px;
+}
+
+.name_input {
+  width: 260px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 23px;
+  padding-left: 30px;
+}
+
+input, .half_input {
+  margin-bottom: 10px;
+  border-radius: 15px;
+ border-color: rgb(202, 203, 202);
+ border-width: 1px;
+ opacity: 15%;
+ border: solid;
+}
+
+.number_container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#number_input1 {
+  width: 100px;
+  height: 60px;
+  font-size: 23px;
+  padding-left: 30px;
+}
+
+
+#number_input2 {
+  width: 420px;
+  height: 60px;
+  font-size: 23px;
+  padding-left: 30px;
+
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+
+.radio_custom {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  position: relative;
+  padding: 10px;
+} 
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+label {
+  font-size: 23px;
+}
+
+.text_inputs {
+  margin-left: 60px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .radio_custom::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #84C7AE;
+  border-radius: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+
+button {
+  width: 390px;
+  height: 100px;
+  font-size: 25px;
+  background-color: 
+  #84C7AE;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 23.01px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 33.75px;
+}
+
+.btn_container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 20px;
+
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-size: 23.01px;
+}
+
+.text_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  font-family: 'Karla';
+  font-size: 21.48px;
+}
+
+
+
+
+
+
